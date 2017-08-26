@@ -9,16 +9,13 @@
 import Foundation
 
 class Employee {
-    var id: String?
-    var someArray: [Employee]?
+    private var id: String?
+    
     
     required init(){
-        
+        self.id="ehsan"
     }
-    func printName(){
-        
-        //return id!
-    }
+   
 }
 
 
